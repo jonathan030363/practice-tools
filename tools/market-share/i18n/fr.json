@@ -1,0 +1,8 @@
+{
+ "meta.title": "Entraînement à la part de marché et au taux de pénétration",
+ "hero.eyebrow": "Outil d’entraînement gratuit · Indicateurs marketing",
+ "hero.title": "Entraînement à la part de marché et au taux de pénétration",
+ "hero.text": "Calcule quatre indicateurs marketing à partir des données. Chaque réponse se corrige pendant la saisie : une coche quand elle est juste, une croix quand il faut y regarder de plus près. Bloqué ? Ouvre le calcul.",
+ "instructions": "Saisis chaque réponse en pourcentage, arrondie à 2 décimales (pour {p}, tape {a} et non {b}). La case devient verte quand la réponse est correcte.",
+ "note.currency": "Les montants sont affichés dans la devise choisie. Changer de devise ne change que le symbole, jamais la réponse."
+}

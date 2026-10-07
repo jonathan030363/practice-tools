@@ -1,0 +1,8 @@
+{
+ "meta.title": "Esercizi su quota di mercato e penetrazione",
+ "hero.eyebrow": "Strumento di esercizio gratuito · Metriche di marketing",
+ "hero.title": "Esercizi su quota di mercato e penetrazione",
+ "hero.text": "Calcola quattro metriche di marketing dai dati forniti. Ogni risposta si corregge mentre scrivi: un segno di spunta se è giusta, una croce se va ricontrollata. Bloccato? Apri il calcolo.",
+ "instructions": "Scrivi ogni risposta come percentuale, arrotondata a 2 decimali (per {p} scrivi {a}, non {b}). La casella diventa verde quando è corretta.",
+ "note.currency": "I ricavi sono mostrati nella valuta che scegli. Cambiare valuta cambia solo il simbolo, mai la risposta."
+}

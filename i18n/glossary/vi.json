@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Thị phần theo số lượng",
+ "brand_unit_sales": "Số lượng bán của thương hiệu",
+ "total_market_unit_sales": "Tổng số lượng bán của thị trường",
+ "market_penetration": "Mức độ thâm nhập thị trường",
+ "current_customers": "Số khách hàng hiện tại",
+ "target_market_size_households": "Tổng quy mô thị trường mục tiêu (hộ gia đình)",
+ "revenue_market_share": "Thị phần theo doanh thu",
+ "brand_sales_revenue": "Doanh thu bán hàng của thương hiệu",
+ "total_market_revenue": "Tổng doanh thu thị trường",
+ "brand_penetration": "Mức độ thâm nhập thương hiệu",
+ "households_purchased": "Số hộ gia đình đã mua thương hiệu",
+ "total_households": "Tổng số hộ gia đình trong thị trường mục tiêu",
+ "units": "sản phẩm",
+ "customers": "khách hàng",
+ "households": "hộ gia đình"
+}

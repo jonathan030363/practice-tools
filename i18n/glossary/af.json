@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Eenheidsmarkaandeel",
+ "brand_unit_sales": "Handelsmerk se eenheidsverkope",
+ "total_market_unit_sales": "Totale eenheidsverkope in die mark",
+ "market_penetration": "Markpenetrasie",
+ "current_customers": "Aantal huidige kliënte",
+ "target_market_size_households": "Totale grootte van die teikenmark (huishoudings)",
+ "revenue_market_share": "Inkomstemarkaandeel",
+ "brand_sales_revenue": "Handelsmerk se verkoopsinkomste",
+ "total_market_revenue": "Totale markinkomste",
+ "brand_penetration": "Handelsmerkpenetrasie",
+ "households_purchased": "Huishoudings wat die handelsmerk gekoop het",
+ "total_households": "Totale huishoudings in die teikenmark",
+ "units": "eenhede",
+ "customers": "kliënte",
+ "households": "huishoudings"
+}

@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Marktaandeel in volume",
+ "brand_unit_sales": "Afzet van het merk (stuks)",
+ "total_market_unit_sales": "Totale afzet van de markt (stuks)",
+ "market_penetration": "Marktpenetratie",
+ "current_customers": "Aantal huidige klanten",
+ "target_market_size_households": "Totale omvang van de doelmarkt (huishoudens)",
+ "revenue_market_share": "Marktaandeel in omzet",
+ "brand_sales_revenue": "Omzet van het merk",
+ "total_market_revenue": "Totale marktomzet",
+ "brand_penetration": "Merkpenetratie",
+ "households_purchased": "Huishoudens die het merk kochten",
+ "total_households": "Totaal aantal huishoudens in de doelmarkt",
+ "units": "stuks",
+ "customers": "klanten",
+ "households": "huishoudens"
+}

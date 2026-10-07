@@ -1,0 +1,19 @@
+{
+ "_about": "Finance and marketing terms reused by every tool. _checked: true once a subject expert has reviewed the language.",
+ "_checked": true,
+ "unit_market_share": "Unit market share",
+ "brand_unit_sales": "Brand unit sales",
+ "total_market_unit_sales": "Total market unit sales",
+ "market_penetration": "Market penetration",
+ "current_customers": "Number of current customers",
+ "target_market_size_households": "Total target market size (households)",
+ "revenue_market_share": "Revenue market share",
+ "brand_sales_revenue": "Brand sales revenue",
+ "total_market_revenue": "Total market revenue",
+ "brand_penetration": "Brand penetration",
+ "households_purchased": "Households that purchased the brand",
+ "total_households": "Total households in target market",
+ "units": "units",
+ "customers": "customers",
+ "households": "households"
+}

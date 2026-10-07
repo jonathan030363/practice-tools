@@ -1,0 +1,13 @@
+{
+ "_about": "Regional variant: only the strings that differ from the base language file.",
+ "_checked": false,
+ "unit_market_share": "Participação de mercado em unidades",
+ "revenue_market_share": "Participação de mercado em receita",
+ "brand_sales_revenue": "Receita de vendas da marca",
+ "total_market_revenue": "Receita total do mercado",
+ "current_customers": "Número de clientes atuais",
+ "target_market_size_households": "Tamanho total do mercado-alvo (domicílios)",
+ "households_purchased": "Domicílios que compraram a marca",
+ "total_households": "Total de domicílios no mercado-alvo",
+ "households": "domicílios"
+}

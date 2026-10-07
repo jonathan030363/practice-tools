@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Μερίδιο αγοράς σε μονάδες",
+ "brand_unit_sales": "Πωλήσεις της μάρκας σε μονάδες",
+ "total_market_unit_sales": "Συνολικές πωλήσεις της αγοράς σε μονάδες",
+ "market_penetration": "Διείσδυση στην αγορά",
+ "current_customers": "Αριθμός τρεχόντων πελατών",
+ "target_market_size_households": "Συνολικό μέγεθος της αγοράς-στόχου (νοικοκυριά)",
+ "revenue_market_share": "Μερίδιο αγοράς σε έσοδα",
+ "brand_sales_revenue": "Έσοδα πωλήσεων της μάρκας",
+ "total_market_revenue": "Συνολικά έσοδα της αγοράς",
+ "brand_penetration": "Διείσδυση της μάρκας",
+ "households_purchased": "Νοικοκυριά που αγόρασαν τη μάρκα",
+ "total_households": "Σύνολο νοικοκυριών στην αγορά-στόχο",
+ "units": "μονάδες",
+ "customers": "πελάτες",
+ "households": "νοικοκυριά"
+}

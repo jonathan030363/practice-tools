@@ -1,177 +1,33 @@
 <!doctype html>
-<html lang="en-GB">
+<html lang="en" dir="ltr">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Financial ratio practice | Praxis Learn</title>
-<meta name="description" content="Free self-marking practice: calculate 15 financial ratios from two years of financial statements. Each answer marks itself as you type.">
-<meta property="og:title" content="Financial ratio practice | Praxis Learn">
-<meta property="og:description" content="Free self-marking practice: calculate 15 financial ratios. Each answer marks itself as you type.">
+<title>Practice tools | Praxis Learn</title>
+<meta name="description" content="Free self-marking practice tools from Praxis Learn: financial ratios, marketing metrics and more. Each answer marks itself as you type.">
+<meta property="og:title" content="Practice tools | Praxis Learn">
+<meta property="og:description" content="Free self-marking practice tools. Each answer marks itself as you type.">
 <meta property="og:type" content="website">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cg transform='translate(1 0)'%3E%3Cpath fill='%230E3A34' fill-rule='evenodd' d='M8 6h16a12 12 0 0 1 0 24h-7v12H8Z M17 14v8h7a4 4 0 0 0 0-8Z'/%3E%3Crect fill='%23B8862F' x='29' y='33' width='9' height='9'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<style>
-:root{
-  --spruce:#0E3A34;--on-spruce:#F7F8F5;--spruce-text:#1F5A50;--spruce-tint:#E3EEEA;
-  --brass:#B8862F;--brass-fill:#D9A84E;--brass-text:#8A6420;
-  --surface:#F7F8F5;--raised:#FFFFFF;--sunken:#EDF1EE;--ink:#16211F;--muted:#55635F;
-  --line:#D9DFDB;--line-strong:#77867F;
-  --success:#1F7A4D;--success-bg:#E4F2EA;--danger:#B3261E;--danger-bg:#FBE9E7;--warning:#8F5B00;
-  --serif:'Spectral',Georgia,serif;--sans:'Albert Sans',Arial,sans-serif;--mono:'IBM Plex Mono',Consolas,monospace;
-  color-scheme:light;
-}
-@media (prefers-color-scheme:dark){
-  :root{
-    --spruce:#16433C;--on-spruce:#F7F8F5;--spruce-text:#6FB3A3;--spruce-tint:#16302B;
-    --brass:#D9A84E;--brass-fill:#D9A84E;--brass-text:#D9A84E;
-    --surface:#0B1714;--raised:#12231F;--sunken:#081210;--ink:#E8EEEA;--muted:#9AA9A4;
-    --line:#24362F;--line-strong:#6E837B;
-    --success:#6FD1A0;--success-bg:#12301F;--danger:#F2877E;--danger-bg:#3A1714;--warning:#E8B45A;
-    color-scheme:dark;
-  }
-}
-*{box-sizing:border-box}
-html{-webkit-text-size-adjust:100%}
-body{margin:0;background:var(--surface);color:var(--ink);font:16px/1.6 var(--sans)}
-h1,h2,h3{font-family:var(--serif);font-weight:600;color:var(--ink);line-height:1.15;margin:0}
-a{color:var(--spruce-text)}
-:focus-visible{outline:2px solid var(--brass);outline-offset:2px}
-.wrap{max-width:1240px;margin:0 auto;padding:0 16px}
-.eyebrow{font:600 12px/1.3 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--brass-text)}
-.rule{width:32px;height:3px;background:var(--brass);margin-bottom:12px}
-.muted{color:var(--muted)}
-.num{font-family:var(--mono);font-variant-numeric:tabular-nums}
-
-/* header */
-.top{border-bottom:1px solid var(--line);background:var(--raised)}
-.top .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:64px}
-.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
-.brand svg{width:32px;height:32px}
-.brand span{font:600 20px/1 var(--serif)}
-.top-link{font-size:14px;font-weight:500;text-decoration:none}
-
-/* hero */
-.hero{padding:40px 0 24px}
-.hero h1{font-size:clamp(30px,5vw,44px);color:var(--spruce);margin:8px 0 12px}
-@media (prefers-color-scheme:dark){.hero h1{color:var(--ink)}}
-.hero p{max-width:68ch;margin:0;color:var(--ink)}
-
-/* toolbar */
-.toolbar{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px;padding:16px 24px;background:var(--raised);border:1px solid var(--line);border-radius:4px;margin-bottom:24px}
-.company-label{font-size:14px;color:var(--muted)}
-.company-name{font:600 22px/1.2 var(--serif)}
-.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;font:600 15px/1 var(--sans);padding:12px 18px;border-radius:4px;border:1px solid var(--spruce);background:var(--spruce);color:var(--on-spruce);cursor:pointer;text-decoration:none;min-height:44px}
-.btn:hover{filter:brightness(1.12)}
-.btn.secondary{background:var(--raised);color:var(--spruce-text);border-color:var(--spruce-text)}
-.btn.accent{background:var(--brass-fill);border-color:var(--brass-fill);color:#0E3A34}
-.btn.ghost-on-dark{background:transparent;color:var(--on-spruce);border-color:var(--on-spruce)}
-.btn.small{font-size:13px;padding:6px 10px;min-height:32px}
-.toolbar-actions{display:flex;flex-wrap:wrap;gap:8px}
-
-/* progress */
-.progress{display:flex;align-items:center;gap:12px;min-width:220px}
-.track{flex:1;height:8px;background:var(--sunken);border-radius:2px;overflow:hidden}
-.bar{height:100%;width:0;background:var(--spruce-text);transition:width .25s}
-.progress-text{font-size:14px;white-space:nowrap}
-
-/* layout */
-.grid{display:grid;grid-template-columns:minmax(300px,380px) 1fr;gap:24px;align-items:start}
-.statements{position:sticky;top:16px;max-height:calc(100vh - 32px);overflow:auto}
-.card{background:var(--raised);border:1px solid var(--line);border-radius:4px;padding:24px}
-.statements .card{padding:20px}
-.statements details>summary{cursor:pointer;list-style:none;display:flex;justify-content:space-between;align-items:center;gap:8px}
-.statements details>summary::-webkit-details-marker{display:none}
-.statements details>summary .chev{font-size:14px;color:var(--muted)}
-.stmt{width:100%;border-collapse:collapse;font-size:14px;margin-top:8px}
-.stmt caption{text-align:left;font:600 16px/1.3 var(--serif);padding:16px 0 4px}
-.stmt caption small{display:block;font:400 13px/1.4 var(--sans);color:var(--muted)}
-.stmt th,.stmt td{padding:5px 4px;border-bottom:1px solid var(--line)}
-.stmt thead th{background:var(--sunken);font-weight:600;font-size:13px;text-align:right}
-.stmt thead th:first-child{text-align:left}
-.stmt td:not(:first-child){text-align:right;font-family:var(--mono);font-variant-numeric:tabular-nums;white-space:nowrap}
-.stmt tr.sub td:first-child{padding-left:16px}
-.stmt tr.total td{font-weight:600;background:var(--spruce-tint)}
-.stmt tr.head td{font-weight:600;padding-top:10px;border-bottom:none}
-.units{font-size:13px;color:var(--muted);margin:8px 0 0}
-
-/* tabs */
-.tabs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
-.tab{font:500 14px/1 var(--sans);padding:9px 14px;border-radius:4px;border:1px solid var(--line-strong);background:var(--raised);color:var(--ink);cursor:pointer;min-height:36px}
-.tab[aria-pressed="true"]{background:var(--spruce);color:var(--on-spruce);border-color:var(--spruce)}
-
-/* ratio table */
-.instructions{margin:0 0 16px;font-size:15px}
-.rhead,.rrow{display:grid;grid-template-columns:minmax(0,1fr) 118px 118px 136px;gap:12px;align-items:start}
-.rhead{font-size:13px;font-weight:600;color:var(--muted);padding:0 0 8px;border-bottom:1px solid var(--line-strong)}
-.rhead div:not(:first-child){text-align:left}
-.section-title{font:600 12px/1 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--brass-text);padding:20px 0 6px}
-.rrow{padding:14px 0;border-bottom:1px solid var(--line)}
-.rname{font-weight:600}
-.rformula{font-size:14px;color:var(--muted);margin-top:2px}
-.rformula code{font-family:var(--sans)}
-.unit-tag{display:inline-block;font:500 12px/1 var(--mono);background:var(--sunken);border-radius:2px;padding:3px 6px;margin-left:6px;color:var(--muted);vertical-align:2px}
-.field label.mlabel{display:none;font-size:12px;font-weight:600;color:var(--muted);margin-bottom:4px}
-.inbox{position:relative}
-.inbox input,.inbox select{width:100%;font:500 15px/1.2 var(--mono);padding:10px 30px 10px 10px;border:1px solid var(--line-strong);border-radius:2px;background:#FBF1DE;color:#16211F;min-height:44px;-webkit-appearance:none;appearance:none}
-.inbox select{font-family:var(--sans);font-size:14px;padding-right:28px;background-image:linear-gradient(45deg,transparent 50%,#55635F 50%),linear-gradient(135deg,#55635F 50%,transparent 50%);background-position:calc(100% - 16px) 19px,calc(100% - 11px) 19px;background-size:5px 5px;background-repeat:no-repeat}
-@media (prefers-color-scheme:dark){.inbox input,.inbox select{background-color:#2A2416;color:var(--ink)}}
-.inbox .mark{position:absolute;right:8px;top:50%;transform:translateY(-50%);font-weight:700;font-size:16px;pointer-events:none}
-.inbox select ~ .mark{right:26px}
-.inbox.ok input,.inbox.ok select{border-color:var(--success);background-color:var(--success-bg);color:var(--ink)}
-.inbox.ok .mark{color:var(--success)}
-.inbox.bad input,.inbox.bad select{border-color:var(--danger);background-color:var(--danger-bg);color:var(--ink)}
-.inbox.bad .mark{color:var(--danger)}
-.hint{font-size:12px;line-height:1.35;color:var(--warning);margin-top:4px}
-.rtools{grid-column:1/-1;display:flex;gap:8px;flex-wrap:wrap}
-.working{grid-column:1/-1;background:var(--sunken);border-left:0;border-radius:4px;padding:12px 14px;font-size:14px}
-.working .wl{font-family:var(--mono);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
-.working[hidden]{display:none}
-.linkbtn{background:none;border:none;padding:4px 0;color:var(--spruce-text);font:500 14px/1.2 var(--sans);text-decoration:underline;cursor:pointer}
-.notes{font-size:13px;color:var(--muted);margin-top:16px}
-.notes p{margin:4px 0}
-
-/* done + CTA */
-.done{display:none;margin-top:24px;padding:20px 24px;border:1px solid var(--success);background:var(--success-bg);border-radius:4px}
-.done.show{display:block}
-.done h3{font-size:22px;margin-bottom:6px}
-.cta{margin:56px 0 0;background:var(--spruce);color:var(--on-spruce);padding:48px 0}
-.cta h2{color:var(--on-spruce);font-size:clamp(26px,4vw,34px);margin:8px 0 12px}
-.cta p{max-width:64ch;margin:0 0 24px}
-.cta .eyebrow{color:var(--brass-fill)}
-.cta .rule{background:var(--brass-fill)}
-.cta-actions{display:flex;flex-wrap:wrap;gap:12px}
-footer{padding:24px 0 40px;font-size:13px;color:var(--muted);background:var(--spruce)}
-footer .wrap{border-top:1px solid rgba(247,248,245,.2);padding-top:20px;color:#C9D3CF}
-footer a{color:#C9D3CF}
-
-/* responsive */
-@media (max-width:960px){
-  .grid{grid-template-columns:1fr}
-  .statements{position:static;max-height:none;overflow:visible}
-}
-@media (max-width:720px){
-  .rhead{display:none}
-  .rrow{grid-template-columns:1fr 1fr;gap:10px}
-  .rrow .rlabel{grid-column:1/-1}
-  .rrow .field.trend{grid-column:1/-1}
-  .field label.mlabel{display:block}
-  .toolbar{padding:16px}
-  .progress{min-width:0;width:100%}
-}
-@media print{.top,.cta,footer,.toolbar-actions,.tabs{display:none}}
-</style>
+<link rel="stylesheet" href="engine/praxis.css">
 </head>
 <body>
 
 <header class="top">
   <div class="wrap">
-    <a class="brand" href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=ratio-pilot" data-track="cta-logo">
+    <a class="brand" data-href="" data-track="cta-logo" href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=library">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Praxis Learn"><g transform="translate(1 0)"><path fill="currentColor" style="color:var(--spruce)" fill-rule="evenodd" d="M8 6h16a12 12 0 0 1 0 24h-7v12H8Z M17 14v8h7a4 4 0 0 0 0-8Z"/><rect fill="#B8862F" x="29" y="33" width="9" height="9"/></g></svg>
       <span>Praxis Learn</span>
     </a>
-    <a class="top-link" href="#praxis-practice">Praxis Practice&trade;</a>
+    <div class="top-links">
+      <div class="pickers">
+        <label class="picker"><span data-i18n="ui.language">Language</span><select id="langPick"></select></label>
+      </div>
+      <a class="top-link" href="#praxis-practice">Praxis Practice™</a>
+    </div>
   </div>
 </header>
 
@@ -179,366 +35,39 @@ footer a{color:#C9D3CF}
   <section class="hero">
     <div class="wrap">
       <div class="rule" aria-hidden="true"></div>
-      <div class="eyebrow">Free practice tool · Financial management</div>
-      <h1>Financial ratio practice</h1>
-      <p>Calculate fifteen ratios from two years of financial statements. Each answer marks itself as you type: a tick when it is right, a cross when it needs another look. Stuck? Open the working for any ratio.</p>
+      <div class="eyebrow" data-i18n="library.eyebrow">Free practice tools · Praxis Learn</div>
+      <h1 data-i18n="library.title">Practice tools</h1>
+      <p data-i18n="library.intro">Free self-marking practice. Type your answers and each one marks itself: a tick when it is right, a cross when it needs another look.</p>
+      <p class="draft-note" id="draftNote" hidden><span data-i18n="ui.translationNote">This translation is a draft.</span> <a data-track="cta-translation" href="https://praxislearn.co.za/contact-us/" data-i18n="ui.translationLink">Spot a translation mistake? Tell us</a></p>
     </div>
   </section>
 
-  <div class="wrap">
-    <div class="toolbar" role="region" aria-label="Company and progress">
-      <div>
-        <div class="company-label">Company <span id="coIndex">1</span> of <span id="coCount">5</span></div>
-        <div class="company-name" id="coName">KAYA (Ltd)</div>
-      </div>
-      <div class="progress">
-        <div class="track" aria-hidden="true"><div class="bar" id="bar"></div></div>
-        <div class="progress-text" id="progressText" aria-live="polite">0 of 45 correct</div>
-      </div>
-      <div class="toolbar-actions">
-        <button class="btn" id="nextCo" type="button">Try another company</button>
-        <button class="btn secondary" id="clearCo" type="button">Clear my answers</button>
-      </div>
-    </div>
-
-    <div class="grid">
-      <aside class="statements" aria-label="Financial statements">
-        <div class="card">
-          <details id="stmtDetails" open>
-            <summary><h2 style="font-size:20px">Financial statements</h2><span class="chev" aria-hidden="true">Show / hide</span></summary>
-            <p class="units">All figures in thousands ('000).</p>
-            <div id="statements"></div>
-          </details>
-        </div>
-      </aside>
-
-      <section aria-labelledby="ratiosTitle">
-        <div class="card">
-          <h2 id="ratiosTitle" style="font-size:24px;margin-bottom:8px">Calculate the ratios</h2>
-          <p class="instructions">Use the statements to calculate each ratio for both years, in the unit shown. Round percentages and times to 2 decimals, and days to 1 decimal. Then say whether the ratio improved or worsened from the prior year to the current year.</p>
-          <div class="tabs" role="group" aria-label="Show ratio group">
-            <button class="tab" type="button" data-filter="all" aria-pressed="true">All ratios</button>
-            <button class="tab" type="button" data-filter="Profitability" aria-pressed="false">Profitability</button>
-            <button class="tab" type="button" data-filter="Turnover" aria-pressed="false">Turnover</button>
-            <button class="tab" type="button" data-filter="Solvency" aria-pressed="false">Solvency</button>
-            <button class="tab" type="button" data-filter="Liquidity" aria-pressed="false">Liquidity</button>
-          </div>
-          <div class="rhead" aria-hidden="true">
-            <div>Ratio</div><div id="hY1">2014</div><div id="hY0">2013</div><div>Trend</div>
-          </div>
-          <div id="ratios"></div>
-          <div class="notes">
-            <p>* Trade payables ratios use cost of sales in place of purchases, because no separate purchases figure is given.</p>
-            <p>** Finance cost cover uses operating profit (profit before interest and tax).</p>
-            <p>“Debt” in the debt ratios means total liabilities. A shorter collection or inventory period counts as an improvement.</p>
-          </div>
-          <div class="done" id="done" role="status">
-            <h3>All 45 answers correct</h3>
-            <p style="margin:0 0 12px">Well done. Try the next company to make sure it sticks, or see how Praxis Practice&trade; can take you further.</p>
-            <button class="btn" type="button" id="doneNext">Try another company</button>
-          </div>
-        </div>
-      </section>
-    </div>
+  <div class="wrap" id="library">
+    <!-- Filled from catalogue.json; this list shows if scripts don't run -->
+    <section class="subject"><h2>Financial management</h2><div class="tool-grid"><article class="card tool-card"><h3>Financial ratio practice</h3><p>Calculate fifteen ratios from two years of financial statements.</p><div class="actions"><a class="btn" href="tools/ratios/">Open the tool</a></div></article></div></section>
+    <section class="subject"><h2>Marketing metrics</h2><div class="tool-grid"><article class="card tool-card"><h3>Market share and penetration practice</h3><p>Calculate unit and revenue market share, market penetration and brand penetration.</p><div class="actions"><a class="btn" href="tools/market-share/">Open the tool</a></div></article></div></section>
   </div>
 
   <section class="cta" id="praxis-practice">
     <div class="wrap">
       <div class="rule" aria-hidden="true"></div>
-      <div class="eyebrow">Praxis Practice&trade;</div>
-      <h2>Practice until it clicks</h2>
-      <p>This tool is one small piece of Praxis Practice&trade;: hands-on practice in business calculations, financial management, statistics and more, with a tutor on hand when you get stuck. Every message is read by a real person, not a bot.</p>
+      <div class="eyebrow">Praxis Practice™</div>
+      <h2 data-i18n="cta.title">Practice until it clicks</h2>
+      <p data-i18n="library.ctaText">These tools are one small piece of Praxis Practice™: hands-on practice in business calculations, financial management, statistics and more, with a tutor on hand when you get stuck. Every message is read by a real person, not a bot.</p>
       <div class="cta-actions">
-        <a class="btn accent" data-track="cta-practice" href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=ratio-pilot">Explore Praxis Practice</a>
-        <a class="btn ghost-on-dark" data-track="cta-contact" href="https://praxislearn.co.za/contact-us/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=ratio-pilot">Ask a tutor a question</a>
+        <a class="btn accent" data-track="cta-practice" data-href="" data-i18n="cta.practice" href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=library">Explore Praxis Practice</a>
+        <a class="btn ghost-on-dark" data-track="cta-contact" data-href="contact-us/" data-i18n="cta.contact" href="https://praxislearn.co.za/contact-us/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=library">Ask a tutor a question</a>
       </div>
     </div>
   </section>
 </main>
 
 <footer>
-  <div class="wrap">Praxis Learning Solutions · <a href="https://praxislearn.co.za/">praxislearn.co.za</a> · Theory, put into practice.</div>
+  <div class="wrap">Praxis Learning Solutions · <a href="https://praxislearn.co.za/">praxislearn.co.za</a> · <span data-i18n="footer.tagline">Theory, put into practice.</span></div>
 </footer>
 
-<script>
-/* ---------- Settings ---------- */
-// To switch on visitor counts, sign up free at goatcounter.com and put your code here, e.g. 'praxislearn'.
-var GOATCOUNTER_CODE = 'praxislearn';
-
-/* ---------- Companies (from Ratio_Practice_Workbook, Examples 1–5) ---------- */
-var COMPANIES = [
- {name:'KAYA (Ltd)', y1:'2014', y0:'2013',
-  cur:{turnover:512000,cos:-298000,opex:-146800,dep:-12500,fin:-9500,tax:-12656,ppe:72000,intang:58000,otherfa:4200,inv:91500,rec:112400,cash:46300,sharecap:40000,re:178900,ltd:95000,prov:8200,pay:47800,accr:14500},
-  prev:{turnover:468000,cos:-271500,opex:-132400,dep:-11200,fin:-10200,tax:-11956,ppe:68500,intang:54200,otherfa:3100,inv:88000,rec:97600,cash:52900,sharecap:40000,re:156300,ltd:100000,prov:7500,pay:45200,accr:15300}},
- {name:'THABO (Ltd)', y1:'2015', y0:'2014',
-  cur:{turnover:650000,cos:-372000,opex:-189500,dep:-15800,fin:-12500,tax:-16856,ppe:85000,intang:41000,otherfa:5100,inv:102300,rec:88700,cash:142800,sharecap:50000,re:205600,ltd:120000,prov:9800,pay:58200,accr:21300},
-  prev:{turnover:590000,cos:-336000,opex:-171200,dep:-14100,fin:-14300,tax:-15232,ppe:79500,intang:38200,otherfa:4400,inv:96800,rec:93500,cash:133500,sharecap:50000,re:182300,ltd:130000,prov:9100,pay:54700,accr:19800}},
- {name:'NOMSA (Ltd)', y1:'2016', y0:'2015',
-  cur:{turnover:580000,cos:-338000,opex:-178500,dep:-16200,fin:-16500,tax:-8624,ppe:95500,intang:32000,otherfa:6200,inv:115400,rec:142800,cash:155000,sharecap:60000,re:198700,ltd:180000,prov:11200,pay:72400,accr:24600},
-  prev:{turnover:610000,cos:-341000,opex:-172800,dep:-15400,fin:-13800,tax:-18760,ppe:99800,intang:35500,otherfa:5800,inv:108900,rec:121300,cash:150000,sharecap:60000,re:210400,ltd:150000,prov:10500,pay:68100,accr:22300}},
- {name:'SIPHO (Ltd)', y1:'2017', y0:'2016',
-  cur:{turnover:845000,cos:-472000,opex:-241800,dep:-19500,fin:-14200,tax:-27300,ppe:110200,intang:75600,otherfa:8100,inv:134500,rec:156200,cash:121800,sharecap:45000,re:312400,ltd:140000,prov:13400,pay:68900,accr:26700},
-  prev:{turnover:760000,cos:-432000,opex:-217600,dep:-17200,fin:-15100,tax:-21868,ppe:101500,intang:68900,otherfa:6700,inv:126800,rec:148900,cash:112800,sharecap:45000,re:267800,ltd:145000,prov:12100,pay:71200,accr:24500}},
- {name:'LERATO (Ltd)', y1:'2018', y0:'2017',
-  cur:{turnover:395000,cos:-221000,opex:-124800,dep:-9600,fin:-8200,tax:-8792,ppe:68400,intang:29800,otherfa:3900,inv:79600,rec:98700,cash:45800,sharecap:35000,re:142300,ltd:85000,prov:6800,pay:41200,accr:15900},
-  prev:{turnover:388000,cos:-217500,opex:-119700,dep:-9100,fin:-8900,tax:-9184,ppe:71200,intang:31500,otherfa:3200,inv:84300,rec:91200,cash:44200,sharecap:35000,re:138900,ltd:90000,prov:6200,pay:38700,accr:16800}}
-];
-
-/* ---------- Derived statement lines ---------- */
-function derive(v){
-  var d = Object.assign({}, v);
-  d.gp = v.turnover + v.cos;
-  d.op = d.gp + v.opex + v.dep;
-  d.pbt = d.op + v.fin;
-  d.pat = d.pbt + v.tax;
-  d.nca = v.ppe + v.intang + v.otherfa;
-  d.ca = v.inv + v.rec + v.cash;
-  d.ta = d.nca + d.ca;
-  d.eq = v.sharecap + v.re;
-  d.ncl = v.ltd + v.prov;
-  d.cl = v.pay + v.accr;
-  d.tl = d.ncl + d.cl;
-  d.tel = d.eq + d.tl;
-  d.cosAbs = Math.abs(v.cos);
-  d.finAbs = Math.abs(v.fin);
-  return d;
-}
-
-/* ---------- Ratios (same formulas and trend rules as the workbook) ---------- */
-// better: which direction counts as "Improved"
-var RATIOS = [
- {id:'roa', sec:'Profitability', name:'Return on assets (ROA)', unit:'%', dp:2, better:'higher', formula:'Net profit after tax ÷ Total assets × 100',
-  f:function(d){return d.pat/d.ta*100}, w:function(d){return [d.pat,'÷',d.ta,'× 100']}},
- {id:'roe', sec:'Profitability', name:'Return on equity (ROE)', unit:'%', dp:2, better:'higher', formula:'Net profit after tax ÷ Total equity × 100',
-  f:function(d){return d.pat/d.eq*100}, w:function(d){return [d.pat,'÷',d.eq,'× 100']}},
- {id:'gpm', sec:'Turnover', name:'Gross profit margin', unit:'%', dp:2, better:'higher', formula:'Gross profit ÷ Turnover × 100',
-  f:function(d){return d.gp/d.turnover*100}, w:function(d){return [d.gp,'÷',d.turnover,'× 100']}},
- {id:'npm', sec:'Turnover', name:'Net profit margin', unit:'%', dp:2, better:'higher', formula:'Net profit after tax ÷ Turnover × 100',
-  f:function(d){return d.pat/d.turnover*100}, w:function(d){return [d.pat,'÷',d.turnover,'× 100']}},
- {id:'recd', sec:'Turnover', name:'Trade receivables collection period', unit:'days', dp:1, better:'lower', formula:'Trade receivables ÷ Turnover × 365',
-  f:function(d){return d.rec/d.turnover*365}, w:function(d){return [d.rec,'÷',d.turnover,'× 365']}},
- {id:'rect', sec:'Turnover', name:'Trade receivables turnover', unit:'times', dp:2, better:'higher', formula:'Turnover ÷ Trade receivables',
-  f:function(d){return d.turnover/d.rec}, w:function(d){return [d.turnover,'÷',d.rec]}},
- {id:'payd', sec:'Turnover', name:'Trade payables payment period *', unit:'days', dp:1, better:'higher', formula:'Trade payables ÷ Cost of sales × 365',
-  f:function(d){return d.pay/d.cosAbs*365}, w:function(d){return [d.pay,'÷',d.cosAbs,'× 365']}},
- {id:'payt', sec:'Turnover', name:'Trade payables turnover *', unit:'times', dp:2, better:'lower', formula:'Cost of sales ÷ Trade payables',
-  f:function(d){return d.cosAbs/d.pay}, w:function(d){return [d.cosAbs,'÷',d.pay]}},
- {id:'invd', sec:'Turnover', name:'Inventory holding period', unit:'days', dp:1, better:'lower', formula:'Inventory ÷ Cost of sales × 365',
-  f:function(d){return d.inv/d.cosAbs*365}, w:function(d){return [d.inv,'÷',d.cosAbs,'× 365']}},
- {id:'invt', sec:'Turnover', name:'Inventory turnover', unit:'times', dp:2, better:'higher', formula:'Cost of sales ÷ Inventory',
-  f:function(d){return d.cosAbs/d.inv}, w:function(d){return [d.cosAbs,'÷',d.inv]}},
- {id:'da', sec:'Solvency', name:'Debt to asset ratio', unit:'%', dp:2, better:'lower', formula:'Total liabilities ÷ Total assets × 100',
-  f:function(d){return d.tl/d.ta*100}, w:function(d){return [d.tl,'÷',d.ta,'× 100']}},
- {id:'de', sec:'Solvency', name:'Debt to equity ratio', unit:'%', dp:2, better:'lower', formula:'Total liabilities ÷ Total equity × 100',
-  f:function(d){return d.tl/d.eq*100}, w:function(d){return [d.tl,'÷',d.eq,'× 100']}},
- {id:'cov', sec:'Solvency', name:'Finance cost (interest) cover **', unit:'times', dp:2, better:'higher', formula:'Operating profit ÷ Finance costs',
-  f:function(d){return d.op/d.finAbs}, w:function(d){return [d.op,'÷',d.finAbs]}},
- {id:'cr', sec:'Liquidity', name:'Current ratio', unit:':1', dp:2, better:'higher', formula:'Current assets ÷ Current liabilities',
-  f:function(d){return d.ca/d.cl}, w:function(d){return [d.ca,'÷',d.cl]}},
- {id:'qr', sec:'Liquidity', name:'Acid test (quick) ratio', unit:':1', dp:2, better:'higher', formula:'(Current assets − Inventory) ÷ Current liabilities',
-  f:function(d){return (d.ca-d.inv)/d.cl}, w:function(d){return ['(',d.ca,'−',d.inv,')','÷',d.cl]}}
-];
-
-function roundTo(x,dp){var m=Math.pow(10,dp);return Math.round((x+Number.EPSILON*Math.sign(x))*m)/m}
-function trendOf(r,cur,prev){
-  if (cur===prev) return 'No change';
-  var up = cur>prev;
-  return (r.better==='higher') === up ? 'Improved' : 'Worsened';
-}
-function answersFor(co){
-  var c=derive(co.cur), p=derive(co.prev), out={};
-  RATIOS.forEach(function(r){
-    var a=r.f(c), b=r.f(p);
-    out[r.id]={y1:roundTo(a,r.dp), y0:roundTo(b,r.dp), raw1:a, raw0:b, trend:trendOf(r,a,b)};
-  });
-  return out;
-}
-
-/* ---------- Formatting ---------- */
-var nf = new Intl.NumberFormat('en-GB');
-function money(n){return n<0 ? '('+nf.format(Math.abs(n))+')' : nf.format(n)}
-function fixed(n,dp){return n.toLocaleString('en-GB',{minimumFractionDigits:dp,maximumFractionDigits:dp})}
-function unitText(u){return u==='%'?'%':u===':1'?':1':' '+u}
-function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
-
-/* ---------- Analytics (off unless GOATCOUNTER_CODE is set) ---------- */
-(function(){
-  if(!GOATCOUNTER_CODE) return;
-  var s=document.createElement('script');
-  s.async=true; s.src='https://gc.zgo.at/count.js';
-  s.setAttribute('data-goatcounter','https://'+GOATCOUNTER_CODE+'.goatcounter.com/count');
-  document.head.appendChild(s);
-})();
-var tracked={};
-function track(name, once){
-  if(once){ if(tracked[name]) return; tracked[name]=true; }
-  try{ if(window.goatcounter && window.goatcounter.count){ window.goatcounter.count({path:name, title:name, event:true}); } }catch(e){}
-}
-document.addEventListener('click',function(e){
-  var a=e.target.closest('[data-track]'); if(a) track(a.getAttribute('data-track'));
-});
-
-/* ---------- State ---------- */
-var current = 0;
-var ANSWERS = COMPANIES.map(answersFor);
-var entries = COMPANIES.map(function(){return {}}); // per company: {roa_y1:'..', roa_tr:'Improved'}
-var filter = 'all';
-
-/* ---------- Render statements ---------- */
-function renderStatements(){
-  var co=COMPANIES[current], c=derive(co.cur), p=derive(co.prev);
-  function row(label,key,cls){return '<tr class="'+(cls||'')+'"><td>'+label+'</td><td>'+money(c[key])+'</td><td>'+money(p[key])+'</td></tr>'}
-  function head(label){return '<tr class="head"><td colspan="3">'+label+'</td></tr>'}
-  var th='<thead><tr><th scope="col"> </th><th scope="col">'+co.y1+'</th><th scope="col">'+co.y0+'</th></tr></thead>';
-  var pl='<table class="stmt"><caption>Statement of profit or loss (extract)<small>'+esc(co.name)+' · year ended 31 December '+co.y1+'</small></caption>'+th+'<tbody>'+
-    row('Turnover','turnover')+row('Cost of sales','cos')+row('Gross profit','gp','total')+
-    row('Operating expenses','opex')+row('Other expenses (depreciation)','dep')+row('Operating profit','op','total')+
-    row('Finance costs','fin')+row('Profit before tax','pbt','total')+row('Income tax expense','tax')+row('Profit after tax','pat','total')+
-    '</tbody></table>';
-  var bs='<table class="stmt"><caption>Statement of financial position<small>'+esc(co.name)+' · as at 31 December '+co.y1+'</small></caption>'+th+'<tbody>'+
-    head('Assets')+row('Non-current assets','nca')+row('Plant and equipment','ppe','sub')+row('Intangible assets','intang','sub')+row('Other fixed assets','otherfa','sub')+
-    row('Current assets','ca')+row('Inventories','inv','sub')+row('Trade receivables','rec','sub')+row('Cash and cash equivalents','cash','sub')+
-    row('Total assets','ta','total')+
-    head('Equity and liabilities')+row('Total equity','eq')+row('Issued share capital','sharecap','sub')+row('Retained earnings','re','sub')+
-    row('Non-current liabilities','ncl')+row('Long-term debt','ltd','sub')+row('Provisions','prov','sub')+
-    row('Current liabilities','cl')+row('Trade payables','pay','sub')+row('Accrued expenses','accr','sub')+
-    row('Total liabilities','tl','total')+row('Total equity and liabilities','tel','total')+
-    '</tbody></table>';
-  document.getElementById('statements').innerHTML=pl+bs;
-}
-
-/* ---------- Render ratio rows ---------- */
-function renderRatios(){
-  var co=COMPANIES[current], html='', lastSec='';
-  RATIOS.forEach(function(r){
-    if(r.sec!==lastSec){ html+='<div class="section-title" data-sec="'+r.sec+'">'+r.sec+'</div>'; lastSec=r.sec; }
-    var id1=r.id+'_y1', id0=r.id+'_y0', idt=r.id+'_tr';
-    html+='<div class="rrow" data-sec="'+r.sec+'" data-id="'+r.id+'">'+
-      '<div class="rlabel"><div class="rname">'+esc(r.name)+'<span class="unit-tag">'+esc(r.unit)+'</span></div><div class="rformula">'+esc(r.formula)+'</div></div>'+
-      '<div class="field"><label class="mlabel" for="'+id1+'">'+co.y1+'</label><div class="inbox"><input id="'+id1+'" inputmode="decimal" autocomplete="off" aria-label="'+esc(r.name)+', '+co.y1+'" data-kind="y1" data-r="'+r.id+'"><span class="mark" aria-hidden="true"></span></div><div class="hint" aria-live="polite"></div></div>'+
-      '<div class="field"><label class="mlabel" for="'+id0+'">'+co.y0+'</label><div class="inbox"><input id="'+id0+'" inputmode="decimal" autocomplete="off" aria-label="'+esc(r.name)+', '+co.y0+'" data-kind="y0" data-r="'+r.id+'"><span class="mark" aria-hidden="true"></span></div><div class="hint" aria-live="polite"></div></div>'+
-      '<div class="field trend"><label class="mlabel" for="'+idt+'">Trend</label><div class="inbox"><select id="'+idt+'" aria-label="'+esc(r.name)+', trend" data-kind="tr" data-r="'+r.id+'"><option value="">Choose…</option><option>Improved</option><option>Worsened</option><option>No change</option></select><span class="mark" aria-hidden="true"></span></div></div>'+
-      '<div class="rtools"><button class="linkbtn" type="button" data-working="'+r.id+'" aria-expanded="false" aria-controls="w_'+r.id+'">Show working</button></div>'+
-      '<div class="working" id="w_'+r.id+'" hidden></div>'+
-    '</div>';
-  });
-  document.getElementById('ratios').innerHTML=html;
-  // restore entries
-  var saved=entries[current];
-  document.querySelectorAll('#ratios [data-kind]').forEach(function(el){
-    var k=el.dataset.r+'_'+el.dataset.kind;
-    if(saved[k]!=null){ el.value=saved[k]; }
-    mark(el);
-  });
-  applyFilter();
-}
-
-function parseNum(s){
-  if(s==null) return NaN;
-  var t=String(s).trim().replace(/\s/g,'').replace(/,/g,'').replace(/(%|days?|times?|:1|x)$/i,'');
-  if(t==='' || !/^[-+]?(\d+\.?\d*|\.\d+)$/.test(t)) return NaN;
-  return parseFloat(t);
-}
-
-function mark(el){
-  var r=RATIOS.find(function(x){return x.id===el.dataset.r});
-  var ans=ANSWERS[current][r.id], box=el.closest('.inbox'), m=box.querySelector('.mark');
-  var hint=el.closest('.field').querySelector('.hint');
-  box.classList.remove('ok','bad'); m.textContent=''; if(hint) hint.textContent='';
-  var val=el.value;
-  if(val===''||val==null){ el.removeAttribute('aria-invalid'); return null; }
-  var ok;
-  if(el.dataset.kind==='tr'){
-    ok = val===ans.trend;
-  } else {
-    var v=parseNum(val), target=ans[el.dataset.kind];
-    if(isNaN(v)){ ok=false; if(hint) hint.textContent='Enter a number, for example 12.34'; }
-    else {
-      ok = Math.abs(v-target) <= 0.5*Math.pow(10,-r.dp)+1e-9;
-      if(!ok && hint){
-        if(r.unit==='%' && Math.abs(v*100-target) <= 0.5) hint.textContent='Looks like a decimal. Enter percentages as, for example, 12.34 rather than 0.1234.';
-        else if(r.unit!=='%' && Math.abs(v/100-target) <= 0.5*Math.pow(10,-r.dp)) hint.textContent='This one is not a percentage. Leave out the × 100.';
-      }
-    }
-  }
-  box.classList.add(ok?'ok':'bad');
-  m.textContent = ok?'✓':'✗';
-  el.setAttribute('aria-invalid', ok?'false':'true');
-  el.title = ok ? 'Correct' : 'Not yet correct';
-  return ok;
-}
-
-function updateProgress(){
-  var total=RATIOS.length*3, n=0;
-  document.querySelectorAll('#ratios .inbox.ok').forEach(function(){n++});
-  document.getElementById('bar').style.width=(n/total*100)+'%';
-  document.getElementById('progressText').textContent=n+' of '+total+' correct';
-  var done=document.getElementById('done');
-  if(n===total){ if(!done.classList.contains('show')){ done.classList.add('show'); track('company-complete-'+(current+1)); } }
-  else done.classList.remove('show');
-}
-
-function renderWorking(id){
-  var r=RATIOS.find(function(x){return x.id===id}), co=COMPANIES[current];
-  var a=ANSWERS[current][id], c=derive(co.cur), p=derive(co.prev);
-  function line(year,d,ans){
-    var parts=r.w(d).map(function(x){return typeof x==='number'?nf.format(x):x}).join(' ').replace(/\( /g,'(').replace(/ \)/g,')');
-    return '<div class="wl">'+year+': '+parts+' = '+fixed(ans,r.dp)+unitText(r.unit)+'</div>';
-  }
-  var dir = r.better==='higher' ? 'A higher figure is better here.' : 'A lower figure is better here.';
-  return '<div style="font-weight:600;margin-bottom:4px">'+esc(r.formula)+'</div>'+line(co.y1,c,a.y1)+line(co.y0,p,a.y0)+
-    '<div style="margin-top:6px">Trend: <strong>'+a.trend+'</strong>. '+dir+'</div>';
-}
-
-function applyFilter(){
-  document.querySelectorAll('#ratios [data-sec]').forEach(function(el){
-    el.style.display = (filter==='all'||el.dataset.sec===filter)?'':'none';
-  });
-}
-
-function loadCompany(i){
-  current=i;
-  var co=COMPANIES[i];
-  document.getElementById('coIndex').textContent=i+1;
-  document.getElementById('coCount').textContent=COMPANIES.length;
-  document.getElementById('coName').textContent=co.name;
-  document.getElementById('hY1').textContent=co.y1;
-  document.getElementById('hY0').textContent=co.y0;
-  renderStatements(); renderRatios(); updateProgress();
-}
-
-/* ---------- Events ---------- */
-document.getElementById('ratios').addEventListener('input',function(e){
-  var el=e.target; if(!el.dataset.kind) return;
-  entries[current][el.dataset.r+'_'+el.dataset.kind]=el.value;
-  mark(el); updateProgress(); track('tool-used',true);
-});
-document.getElementById('ratios').addEventListener('change',function(e){
-  var el=e.target; if(el.tagName!=='SELECT') return;
-  entries[current][el.dataset.r+'_tr']=el.value; mark(el); updateProgress(); track('tool-used',true);
-});
-document.getElementById('ratios').addEventListener('click',function(e){
-  var b=e.target.closest('[data-working]'); if(!b) return;
-  var id=b.dataset.working, box=document.getElementById('w_'+id), open=box.hidden;
-  if(open){ box.innerHTML=renderWorking(id); }
-  box.hidden=!open; b.setAttribute('aria-expanded',String(open));
-  b.textContent=open?'Hide working':'Show working';
-  if(open) track('working-opened',true);
-});
-function nextCompany(){ loadCompany((current+1)%COMPANIES.length); track('another-company'); document.querySelector('.toolbar').scrollIntoView({behavior:'smooth',block:'start'}); }
-document.getElementById('nextCo').addEventListener('click',nextCompany);
-document.getElementById('doneNext').addEventListener('click',nextCompany);
-document.getElementById('clearCo').addEventListener('click',function(){ entries[current]={}; renderRatios(); updateProgress(); });
-document.querySelectorAll('.tab').forEach(function(t){
-  t.addEventListener('click',function(){
-    filter=t.dataset.filter;
-    document.querySelectorAll('.tab').forEach(function(x){x.setAttribute('aria-pressed',String(x===t))});
-    applyFilter();
-  });
-});
-if(window.matchMedia('(max-width:960px)').matches){ /* keep statements open on phones too; they can collapse them */ }
-
-loadCompany(0);
-</script>
+<script src="engine/core.js"></script>
+<script src="engine/engine.js"></script>
+<script>PraxisEngine.library();</script>
 </body>
 </html>

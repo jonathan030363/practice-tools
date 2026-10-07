@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Mengenmäßiger Marktanteil",
+ "brand_unit_sales": "Absatzmenge der Marke",
+ "total_market_unit_sales": "Gesamtabsatzmenge des Marktes",
+ "market_penetration": "Marktdurchdringung",
+ "current_customers": "Anzahl der aktuellen Kunden",
+ "target_market_size_households": "Gesamtgröße des Zielmarkts (Haushalte)",
+ "revenue_market_share": "Umsatzbezogener Marktanteil",
+ "brand_sales_revenue": "Umsatz der Marke",
+ "total_market_revenue": "Gesamtumsatz des Marktes",
+ "brand_penetration": "Markenpenetration",
+ "households_purchased": "Haushalte, die die Marke gekauft haben",
+ "total_households": "Haushalte im Zielmarkt insgesamt",
+ "units": "Stück",
+ "customers": "Kunden",
+ "households": "Haushalte"
+}

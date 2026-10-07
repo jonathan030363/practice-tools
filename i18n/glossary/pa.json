@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "ਇਕਾਈਆਂ ਅਨੁਸਾਰ ਮਾਰਕੀਟ ਹਿੱਸੇਦਾਰੀ",
+ "brand_unit_sales": "ਬ੍ਰਾਂਡ ਦੀ ਇਕਾਈ ਵਿਕਰੀ",
+ "total_market_unit_sales": "ਮਾਰਕੀਟ ਦੀ ਕੁੱਲ ਇਕਾਈ ਵਿਕਰੀ",
+ "market_penetration": "ਮਾਰਕੀਟ ਪਹੁੰਚ",
+ "current_customers": "ਮੌਜੂਦਾ ਗਾਹਕਾਂ ਦੀ ਗਿਣਤੀ",
+ "target_market_size_households": "ਟੀਚਾ ਮਾਰਕੀਟ ਦਾ ਕੁੱਲ ਆਕਾਰ (ਘਰ)",
+ "revenue_market_share": "ਆਮਦਨ ਅਨੁਸਾਰ ਮਾਰਕੀਟ ਹਿੱਸੇਦਾਰੀ",
+ "brand_sales_revenue": "ਬ੍ਰਾਂਡ ਦੀ ਵਿਕਰੀ ਆਮਦਨ",
+ "total_market_revenue": "ਮਾਰਕੀਟ ਦੀ ਕੁੱਲ ਆਮਦਨ",
+ "brand_penetration": "ਬ੍ਰਾਂਡ ਪਹੁੰਚ",
+ "households_purchased": "ਬ੍ਰਾਂਡ ਖਰੀਦਣ ਵਾਲੇ ਘਰ",
+ "total_households": "ਟੀਚਾ ਮਾਰਕੀਟ ਵਿੱਚ ਕੁੱਲ ਘਰ",
+ "units": "ਇਕਾਈਆਂ",
+ "customers": "ਗਾਹਕ",
+ "households": "ਘਰ"
+}

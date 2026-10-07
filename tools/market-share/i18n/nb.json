@@ -1,0 +1,8 @@
+{
+ "meta.title": "Øving i markedsandel og markedspenetrasjon",
+ "hero.eyebrow": "Gratis øvingsverktøy · Markedsføringsnøkkeltall",
+ "hero.title": "Øving i markedsandel og markedspenetrasjon",
+ "hero.text": "Beregn fire markedsføringsnøkkeltall fra de gitte dataene. Hvert svar rettes mens du skriver: en hake når det er riktig, et kryss når du bør se på det igjen. Står du fast? Åpne utregningen.",
+ "instructions": "Skriv hvert svar som et prosenttall avrundet til 2 desimaler (for {p} skriver du {a}, ikke {b}). Feltet blir grønt når svaret er riktig.",
+ "note.currency": "Inntekter vises i valutaen du velger. Å bytte valuta endrer bare symbolet, aldri svaret."
+}

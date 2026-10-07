@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Markkinaosuus määränä",
+ "brand_unit_sales": "Brändin myynti kappaleina",
+ "total_market_unit_sales": "Markkinoiden kokonaismyynti kappaleina",
+ "market_penetration": "Markkinapenetraatio",
+ "current_customers": "Nykyisten asiakkaiden määrä",
+ "target_market_size_households": "Kohdemarkkinan kokonaiskoko (kotitaloudet)",
+ "revenue_market_share": "Markkinaosuus arvona",
+ "brand_sales_revenue": "Brändin myyntitulot",
+ "total_market_revenue": "Markkinoiden kokonaismyyntitulot",
+ "brand_penetration": "Brändipenetraatio",
+ "households_purchased": "Brändiä ostaneet kotitaloudet",
+ "total_households": "Kohdemarkkinan kotitaloudet yhteensä",
+ "units": "kpl",
+ "customers": "asiakkaat",
+ "households": "kotitaloudet"
+}

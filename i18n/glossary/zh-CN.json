@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "销量市场份额",
+ "brand_unit_sales": "品牌销量",
+ "total_market_unit_sales": "市场总销量",
+ "market_penetration": "市场渗透率",
+ "current_customers": "现有客户数量",
+ "target_market_size_households": "目标市场总规模（家庭数）",
+ "revenue_market_share": "销售额市场份额",
+ "brand_sales_revenue": "品牌销售收入",
+ "total_market_revenue": "市场总收入",
+ "brand_penetration": "品牌渗透率",
+ "households_purchased": "购买该品牌的家庭数",
+ "total_households": "目标市场家庭总数",
+ "units": "件",
+ "customers": "位客户",
+ "households": "户"
+}

@@ -1,0 +1,8 @@
+{
+ "_about": "Regional variant: only the strings that differ from the base language file.",
+ "meta.title": "Práctica de participación de mercado y penetración",
+ "hero.title": "Práctica de participación de mercado y penetración",
+ "hero.text": "Calculá cuatro métricas de marketing a partir de los datos. Cada respuesta se corrige mientras escribís: una marca cuando es correcta y una cruz cuando hay que revisarla. ¿Te trabaste? Abrí el cálculo.",
+ "instructions": "Escribí cada respuesta como porcentaje, redondeado a 2 decimales (para {p} escribí {a}, no {b}). La casilla se pone verde cuando es correcta.",
+ "note.currency": "Los ingresos se muestran en la moneda que elijas. Cambiar de moneda solo cambia el símbolo, nunca la respuesta."
+}

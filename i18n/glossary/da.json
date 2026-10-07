@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Markedsandel i enheder",
+ "brand_unit_sales": "Brandets salg i enheder",
+ "total_market_unit_sales": "Markedets samlede salg i enheder",
+ "market_penetration": "Markedspenetration",
+ "current_customers": "Antal nuværende kunder",
+ "target_market_size_households": "Målmarkedets samlede størrelse (husstande)",
+ "revenue_market_share": "Markedsandel i omsætning",
+ "brand_sales_revenue": "Brandets salgsomsætning",
+ "total_market_revenue": "Markedets samlede omsætning",
+ "brand_penetration": "Brandpenetration",
+ "households_purchased": "Husstande, der har købt brandet",
+ "total_households": "Husstande i målmarkedet i alt",
+ "units": "enheder",
+ "customers": "kunder",
+ "households": "husstande"
+}

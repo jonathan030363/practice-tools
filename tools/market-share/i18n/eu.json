@@ -1,0 +1,8 @@
+{
+ "meta.title": "Merkatu-kuotaren eta sartze-tasaren praktika",
+ "hero.eyebrow": "Doako praktika-tresna · Marketin-adierazleak",
+ "hero.title": "Merkatu-kuotaren eta sartze-tasaren praktika",
+ "hero.text": "Kalkulatu lau marketin-adierazle emandako datuetatik. Erantzun bakoitza idatzi ahala zuzentzen da: marka bat zuzena denean, gurutze bat berriro begiratu behar denean. Trabatuta? Ireki kalkulua.",
+ "instructions": "Idatzi erantzun bakoitza ehuneko gisa, 2 hamartarrera biribilduta ({p} bada, idatzi {a}, ez {b}). Laukia berde jartzen da zuzena denean.",
+ "note.currency": "Diru-sarrerak aukeratzen duzun monetan erakusten dira. Moneta aldatzeak ikurra bakarrik aldatzen du, inoiz ez erantzuna."
+}

@@ -1,0 +1,20 @@
+{
+ "_about": "Regional variant: only the strings that differ from the base language file.",
+ "library.video": "Ver el video",
+ "catalogue.market-share.title": "Práctica de participación de mercado y penetración",
+ "catalogue.market-share.text": "Calculá la participación de mercado en unidades y en ingresos, la penetración de mercado y la penetración de marca.",
+ "catalogue.ratios.title": "Práctica de razones financieras",
+ "catalogue.ratios.text": "Calculá quince razones a partir de los estados financieros de dos años.",
+ "ui.translationLink": "¿Viste un error de traducción? Avisanos",
+ "ui.tryAnother": "Probá otro ejemplo",
+ "ui.hintNumber": "Escribí un número, por ejemplo {ex}",
+ "ui.hintDecimal": "Parece un decimal. Escribí los porcentajes como, por ejemplo, {pct} en lugar de {dec}.",
+ "ui.hintRounding": "Casi. Revisá el redondeo a {dp} decimales.",
+ "ui.doneText": "¡Muy bien! Probá otro ejemplo para afianzarlo o descubrí cómo Praxis Practice™ puede llevarte más lejos.",
+ "cta.title": "Practicá hasta que lo entiendas",
+ "cta.text": "Esta herramienta es una pequeña parte de Praxis Practice™: práctica real de cálculo empresarial, gestión financiera, estadística y más, con un tutor disponible cuando te trabás. Cada mensaje lo lee una persona real, no un bot.",
+ "library.ctaText": "Estas herramientas son una pequeña parte de Praxis Practice™: práctica real de cálculo empresarial, gestión financiera, estadística y más, con un tutor disponible cuando te trabás. Cada mensaje lo lee una persona real, no un bot.",
+ "cta.practice": "Conocé Praxis Practice",
+ "cta.contact": "Hacele una pregunta a un tutor",
+ "library.intro": "Práctica gratuita que se corrige sola. Escribí tus respuestas y cada una se corrige al momento: una marca cuando es correcta y una cruz cuando hay que revisarla."
+}

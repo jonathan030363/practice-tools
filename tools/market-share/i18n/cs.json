@@ -1,0 +1,8 @@
+{
+ "meta.title": "Procvičování tržního podílu a penetrace",
+ "hero.eyebrow": "Bezplatný procvičovací nástroj · Marketingové ukazatele",
+ "hero.title": "Procvičování tržního podílu a penetrace",
+ "hero.text": "Vypočítej čtyři marketingové ukazatele ze zadaných údajů. Každá odpověď se vyhodnocuje už při psaní: fajfka, když je správně, křížek, když je potřeba se na ni podívat znovu. Nevíš si rady? Otevři postup.",
+ "instructions": "Každou odpověď zadej jako procenta zaokrouhlená na 2 desetinná místa (pro {p} napiš {a}, ne {b}). Políčko zezelená, když je odpověď správná.",
+ "note.currency": "Tržby se zobrazují ve zvolené měně. Změna měny mění jen symbol, nikdy odpověď."
+}

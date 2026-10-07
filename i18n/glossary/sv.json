@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Marknadsandel i volym",
+ "brand_unit_sales": "Varumärkets försäljning i enheter",
+ "total_market_unit_sales": "Marknadens totala försäljning i enheter",
+ "market_penetration": "Marknadspenetration",
+ "current_customers": "Antal nuvarande kunder",
+ "target_market_size_households": "Målmarknadens totala storlek (hushåll)",
+ "revenue_market_share": "Marknadsandel i intäkter",
+ "brand_sales_revenue": "Varumärkets försäljningsintäkter",
+ "total_market_revenue": "Marknadens totala intäkter",
+ "brand_penetration": "Varumärkespenetration",
+ "households_purchased": "Hushåll som köpt varumärket",
+ "total_households": "Totalt antal hushåll på målmarknaden",
+ "units": "enheter",
+ "customers": "kunder",
+ "households": "hushåll"
+}

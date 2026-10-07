@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "수량 기준 시장 점유율",
+ "brand_unit_sales": "브랜드 판매 수량",
+ "total_market_unit_sales": "시장 전체 판매 수량",
+ "market_penetration": "시장 침투율",
+ "current_customers": "현재 고객 수",
+ "target_market_size_households": "목표 시장 전체 규모(가구)",
+ "revenue_market_share": "매출 기준 시장 점유율",
+ "brand_sales_revenue": "브랜드 매출액",
+ "total_market_revenue": "시장 전체 매출액",
+ "brand_penetration": "브랜드 침투율",
+ "households_purchased": "브랜드를 구매한 가구 수",
+ "total_households": "목표 시장의 전체 가구 수",
+ "units": "개",
+ "customers": "명",
+ "households": "가구"
+}

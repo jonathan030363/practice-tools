@@ -1,0 +1,8 @@
+{
+ "meta.title": "Übung zu Marktanteil und Marktdurchdringung",
+ "hero.eyebrow": "Kostenloses Übungstool · Marketingkennzahlen",
+ "hero.title": "Übung zu Marktanteil und Marktdurchdringung",
+ "hero.text": "Berechne vier Marketingkennzahlen aus den gegebenen Daten. Jede Antwort wird beim Tippen geprüft: ein Haken, wenn sie stimmt, ein Kreuz, wenn du noch einmal hinsehen solltest. Hängst du fest? Öffne den Rechenweg.",
+ "instructions": "Gib jede Antwort als Prozentzahl ein, gerundet auf 2 Dezimalstellen (für {p} tippe {a}, nicht {b}). Das Feld wird grün, wenn die Antwort stimmt.",
+ "note.currency": "Umsatzzahlen werden in der gewählten Währung angezeigt. Ein Wechsel der Währung ändert nur das Symbol, nie die Antwort."
+}

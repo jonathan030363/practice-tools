@@ -1,0 +1,8 @@
+{
+ "meta.title": "Luyện tập thị phần và mức độ thâm nhập",
+ "hero.eyebrow": "Công cụ luyện tập miễn phí · Chỉ số marketing",
+ "hero.title": "Luyện tập thị phần và mức độ thâm nhập",
+ "hero.text": "Tính bốn chỉ số marketing từ dữ liệu cho trước. Mỗi câu trả lời được chấm ngay khi bạn nhập: dấu tích khi đúng, dấu chéo khi cần xem lại. Bị kẹt? Mở cách tính.",
+ "instructions": "Nhập mỗi câu trả lời dưới dạng số phần trăm, làm tròn đến 2 chữ số thập phân (với {p}, nhập {a}, không nhập {b}). Ô sẽ chuyển sang màu xanh khi đúng.",
+ "note.currency": "Doanh thu được hiển thị bằng loại tiền bạn chọn. Đổi tiền tệ chỉ đổi ký hiệu, không bao giờ đổi đáp án."
+}

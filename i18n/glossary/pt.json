@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Quota de mercado em unidades",
+ "brand_unit_sales": "Vendas da marca em unidades",
+ "total_market_unit_sales": "Vendas totais do mercado em unidades",
+ "market_penetration": "Penetração de mercado",
+ "current_customers": "Número de clientes atuais",
+ "target_market_size_households": "Dimensão total do mercado-alvo (agregados familiares)",
+ "revenue_market_share": "Quota de mercado em receitas",
+ "brand_sales_revenue": "Receitas de vendas da marca",
+ "total_market_revenue": "Receitas totais do mercado",
+ "brand_penetration": "Penetração da marca",
+ "households_purchased": "Agregados familiares que compraram a marca",
+ "total_households": "Total de agregados familiares no mercado-alvo",
+ "units": "unidades",
+ "customers": "clientes",
+ "households": "agregados familiares"
+}

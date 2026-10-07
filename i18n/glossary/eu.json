@@ -1,0 +1,18 @@
+{
+ "_checked": false,
+ "unit_market_share": "Unitateetako merkatu-kuota",
+ "brand_unit_sales": "Markaren salmentak unitatetan",
+ "total_market_unit_sales": "Merkatuaren salmenta guztiak unitatetan",
+ "market_penetration": "Merkatuko sartze-tasa",
+ "current_customers": "Egungo bezero kopurua",
+ "target_market_size_households": "Xede-merkatuaren tamaina osoa (etxeak)",
+ "revenue_market_share": "Diru-sarreretako merkatu-kuota",
+ "brand_sales_revenue": "Markaren salmenta-diru-sarrerak",
+ "total_market_revenue": "Merkatuaren diru-sarrera guztiak",
+ "brand_penetration": "Markaren sartze-tasa",
+ "households_purchased": "Marka erosi duten etxeak",
+ "total_households": "Xede-merkatuko etxeak guztira",
+ "units": "unitate",
+ "customers": "bezero",
+ "households": "etxe"
+}
