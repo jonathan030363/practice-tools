@@ -1,7 +1,0 @@
-{
-  "_about": "The library page (index.html) is built from this list. One entry per tool: slug (also the string keys catalogue.<slug>.title/.text in i18n/<lang>.json), subject (string key subject.<subject>), path, languages ('all' or a list), video (YouTube link or null).",
-  "tools": [
-    { "slug": "ratios", "subject": "financial-management", "path": "tools/ratios/", "languages": ["en"], "video": null },
-    { "slug": "market-share", "subject": "marketing-metrics", "path": "tools/market-share/", "languages": "all", "video": null }
-  ]
-}

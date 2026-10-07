@@ -1,9 +1,0 @@
-{
- "_about": "Regional variant: only the strings that differ from the base language file.",
- "library.video": "Ver el video",
- "catalogue.market-share.title": "Práctica de participación de mercado y penetración",
- "catalogue.market-share.text": "Calcula la participación de mercado en unidades y en ingresos, la penetración de mercado y la penetración de marca.",
- "catalogue.ratios.title": "Práctica de indicadores financieros",
- "catalogue.ratios.text": "Calcula quince indicadores a partir de los estados financieros de dos años.",
- "ui.translationLink": "¿Viste un error de traducción? Avísanos"
-}

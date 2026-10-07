@@ -1,8 +1,0 @@
-{
- "meta.title": "Markkinaosuuden ja penetraation harjoitus",
- "hero.eyebrow": "Maksuton harjoitustyökalu · Markkinoinnin mittarit",
- "hero.title": "Markkinaosuuden ja penetraation harjoitus",
- "hero.text": "Laske neljä markkinoinnin mittaria annetuista tiedoista. Jokainen vastaus tarkistetaan kirjoittaessasi: rasti, kun vastaus on oikein, risti, kun siihen kannattaa katsoa uudelleen. Jumissa? Avaa laskutoimitus.",
- "instructions": "Kirjoita jokainen vastaus prosenttilukuna kahden desimaalin tarkkuudella (kun vastaus on {p}, kirjoita {a}, älä {b}). Ruutu muuttuu vihreäksi, kun vastaus on oikein.",
- "note.currency": "Myyntitulot näytetään valitsemassasi valuutassa. Valuutan vaihtaminen muuttaa vain symbolia, ei koskaan vastausta."
-}

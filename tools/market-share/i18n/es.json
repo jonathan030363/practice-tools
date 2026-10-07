@@ -1,8 +1,0 @@
-{
- "meta.title": "Práctica de cuota de mercado y penetración",
- "hero.eyebrow": "Herramienta de práctica gratuita · Métricas de marketing",
- "hero.title": "Práctica de cuota de mercado y penetración",
- "hero.text": "Calcula cuatro métricas de marketing a partir de los datos. Cada respuesta se corrige mientras escribes: una marca cuando es correcta y una cruz cuando hay que revisarla. ¿Atascado? Abre el cálculo.",
- "instructions": "Escribe cada respuesta como porcentaje, redondeado a 2 decimales (para {p} escribe {a}, no {b}). La casilla se pone verde cuando es correcta.",
- "note.currency": "Los ingresos se muestran en la moneda que elijas. Cambiar de moneda solo cambia el símbolo, nunca la respuesta."
-}

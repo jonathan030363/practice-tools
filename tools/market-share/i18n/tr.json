@@ -1,8 +1,0 @@
-{
- "meta.title": "Pazar payı ve penetrasyon alıştırması",
- "hero.eyebrow": "Ücretsiz alıştırma aracı · Pazarlama metrikleri",
- "hero.title": "Pazar payı ve penetrasyon alıştırması",
- "hero.text": "Verilen verilerden dört pazarlama metriği hesapla. Her cevap sen yazarken değerlendirilir: doğruysa onay işareti, bir daha bakman gerekiyorsa çarpı. Takıldın mı? Çözümü aç.",
- "instructions": "Her cevabı 2 ondalık basamağa yuvarlanmış bir yüzde sayısı olarak yaz ({p} için {b} değil, {a} yaz). Cevap doğru olduğunda kutu yeşile döner.",
- "note.currency": "Gelir rakamları seçtiğin para biriminde gösterilir. Para birimini değiştirmek yalnızca simgeyi değiştirir, cevabı asla."
-}

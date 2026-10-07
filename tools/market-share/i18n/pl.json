@@ -1,8 +1,0 @@
-{
- "meta.title": "Ćwiczenia z udziału w rynku i penetracji",
- "hero.eyebrow": "Bezpłatne narzędzie do ćwiczeń · Wskaźniki marketingowe",
- "hero.title": "Ćwiczenia z udziału w rynku i penetracji",
- "hero.text": "Oblicz cztery wskaźniki marketingowe na podstawie podanych danych. Każda odpowiedź jest sprawdzana w trakcie pisania: ptaszek, gdy jest dobrze, krzyżyk, gdy trzeba spojrzeć jeszcze raz. Utknąłeś? Otwórz obliczenia.",
- "instructions": "Wpisz każdą odpowiedź jako liczbę procentową zaokrągloną do 2 miejsc po przecinku (dla {p} wpisz {a}, a nie {b}). Pole zmieni kolor na zielony, gdy odpowiedź będzie poprawna.",
- "note.currency": "Przychody są pokazywane w wybranej walucie. Zmiana waluty zmienia tylko symbol, nigdy odpowiedź."
-}

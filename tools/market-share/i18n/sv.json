@@ -1,8 +1,0 @@
-{
- "meta.title": "Övning i marknadsandel och marknadspenetration",
- "hero.eyebrow": "Gratis övningsverktyg · Marknadsföringsnyckeltal",
- "hero.title": "Övning i marknadsandel och marknadspenetration",
- "hero.text": "Beräkna fyra marknadsföringsnyckeltal utifrån de givna uppgifterna. Varje svar rättas medan du skriver: en bock när det är rätt, ett kryss när du behöver titta en gång till. Kört fast? Öppna uträkningen.",
- "instructions": "Skriv varje svar som ett procenttal avrundat till 2 decimaler (för {p} skriver du {a}, inte {b}). Rutan blir grön när svaret är rätt.",
- "note.currency": "Intäkter visas i den valuta du väljer. Att byta valuta ändrar bara symbolen, aldrig svaret."
-}

@@ -1,8 +1,0 @@
-{
- "meta.title": "Øvelse i markedsandel og markedspenetration",
- "hero.eyebrow": "Gratis øvelsesværktøj · Marketingnøgletal",
- "hero.title": "Øvelse i markedsandel og markedspenetration",
- "hero.text": "Beregn fire marketingnøgletal ud fra de givne data. Hvert svar rettes, mens du skriver: et flueben, når det er rigtigt, et kryds, når det skal ses på igen. Sidder du fast? Åbn udregningen.",
- "instructions": "Skriv hvert svar som et procenttal afrundet til 2 decimaler (for {p} skriver du {a}, ikke {b}). Feltet bliver grønt, når svaret er rigtigt.",
- "note.currency": "Omsætningstal vises i den valuta, du vælger. Skifter du valuta, ændres kun symbolet, aldrig svaret."
-}

@@ -1,8 +1,0 @@
-{
- "_about": "Regional variant: only the strings that differ from the base language file.",
- "meta.title": "Prática de participação de mercado e penetração",
- "hero.title": "Prática de participação de mercado e penetração",
- "hero.text": "Calcule quatro métricas de marketing a partir dos dados. Cada resposta é corrigida enquanto você digita: um visto quando está certa, um X quando precisa de outra olhada. Travou? Abra o cálculo.",
- "instructions": "Digite cada resposta como porcentagem, arredondada para 2 casas decimais (para {p} digite {a}, não {b}). A caixa fica verde quando está correta.",
- "note.currency": "A receita aparece na moeda que você escolher. Mudar a moeda muda só o símbolo, nunca a resposta."
-}

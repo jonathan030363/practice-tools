@@ -1,73 +1,39 @@
 <!doctype html>
-<html lang="en" dir="ltr">
+<html lang="en-GB">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Practice tools | Praxis Learn</title>
-<meta name="description" content="Free self-marking practice tools from Praxis Learn: financial ratios, marketing metrics and more. Each answer marks itself as you type.">
-<meta property="og:title" content="Practice tools | Praxis Learn">
-<meta property="og:description" content="Free self-marking practice tools. Each answer marks itself as you type.">
-<meta property="og:type" content="website">
+<title>Practice tools coming soon | Praxis Learn</title>
+<meta name="description" content="Self-marking practice tools from Praxis Learn are coming soon.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cg transform='translate(1 0)'%3E%3Cpath fill='%230E3A34' fill-rule='evenodd' d='M8 6h16a12 12 0 0 1 0 24h-7v12H8Z M17 14v8h7a4 4 0 0 0 0-8Z'/%3E%3Crect fill='%23B8862F' x='29' y='33' width='9' height='9'/%3E%3C/g%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Spectral:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="engine/praxis.css">
+<link href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600&family=Spectral:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--spruce:#0E3A34;--brass:#B8862F;--surface:#F7F8F5;--ink:#16211F;--muted:#55635F;--link:#1F5A50;color-scheme:light}
+@media (prefers-color-scheme:dark){:root{--spruce:#E8EEEA;--brass:#D9A84E;--surface:#0B1714;--ink:#E8EEEA;--muted:#9AA9A4;--link:#6FB3A3;color-scheme:dark}}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;display:flex;align-items:center;background:var(--surface);color:var(--ink);font:400 1.0625rem/1.6 'Albert Sans',Arial,sans-serif}
+main{width:100%;max-width:640px;margin:0 auto;padding:48px 16px}
+.logo{display:flex;align-items:center;gap:10px;font-weight:600;color:var(--spruce);text-decoration:none;margin-bottom:40px}
+.logo svg{width:36px;height:36px}
+.rule{width:48px;height:4px;background:var(--brass);margin-bottom:16px}
+h1{font:600 clamp(2rem,6vw,2.75rem)/1.15 'Spectral',Georgia,serif;margin:0 0 12px;color:var(--spruce)}
+p{margin:0 0 16px;color:var(--muted);max-width:56ch}
+a{color:var(--link)}
+</style>
 </head>
 <body>
-
-<header class="top">
-  <div class="wrap">
-    <a class="brand" data-href="" data-track="cta-logo" href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=library">
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Praxis Learn"><g transform="translate(1 0)"><path fill="currentColor" style="color:var(--spruce)" fill-rule="evenodd" d="M8 6h16a12 12 0 0 1 0 24h-7v12H8Z M17 14v8h7a4 4 0 0 0 0-8Z"/><rect fill="#B8862F" x="29" y="33" width="9" height="9"/></g></svg>
-      <span>Praxis Learn</span>
-    </a>
-    <div class="top-links">
-      <div class="pickers">
-        <label class="picker"><span data-i18n="ui.language">Language</span><select id="langPick"></select></label>
-      </div>
-      <a class="top-link" href="#praxis-practice">Praxis Practice™</a>
-    </div>
-  </div>
-</header>
-
 <main>
-  <section class="hero">
-    <div class="wrap">
-      <div class="rule" aria-hidden="true"></div>
-      <div class="eyebrow" data-i18n="library.eyebrow">Free practice tools · Praxis Learn</div>
-      <h1 data-i18n="library.title">Practice tools</h1>
-      <p data-i18n="library.intro">Free self-marking practice. Type your answers and each one marks itself: a tick when it is right, a cross when it needs another look.</p>
-      <p class="draft-note" id="draftNote" hidden><span data-i18n="ui.translationNote">This translation is a draft.</span> <a data-track="cta-translation" href="https://praxislearn.co.za/contact-us/" data-i18n="ui.translationLink">Spot a translation mistake? Tell us</a></p>
-    </div>
-  </section>
-
-  <div class="wrap" id="library">
-    <!-- Filled from catalogue.json; this list shows if scripts don't run -->
-    <section class="subject"><h2>Financial management</h2><div class="tool-grid"><article class="card tool-card"><h3>Financial ratio practice</h3><p>Calculate fifteen ratios from two years of financial statements.</p><div class="actions"><a class="btn" href="tools/ratios/">Open the tool</a></div></article></div></section>
-    <section class="subject"><h2>Marketing metrics</h2><div class="tool-grid"><article class="card tool-card"><h3>Market share and penetration practice</h3><p>Calculate unit and revenue market share, market penetration and brand penetration.</p><div class="actions"><a class="btn" href="tools/market-share/">Open the tool</a></div></article></div></section>
-  </div>
-
-  <section class="cta" id="praxis-practice">
-    <div class="wrap">
-      <div class="rule" aria-hidden="true"></div>
-      <div class="eyebrow">Praxis Practice™</div>
-      <h2 data-i18n="cta.title">Practice until it clicks</h2>
-      <p data-i18n="library.ctaText">These tools are one small piece of Praxis Practice™: hands-on practice in business calculations, financial management, statistics and more, with a tutor on hand when you get stuck. Every message is read by a real person, not a bot.</p>
-      <div class="cta-actions">
-        <a class="btn accent" data-track="cta-practice" data-href="" data-i18n="cta.practice" href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=library">Explore Praxis Practice</a>
-        <a class="btn ghost-on-dark" data-track="cta-contact" data-href="contact-us/" data-i18n="cta.contact" href="https://praxislearn.co.za/contact-us/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=library">Ask a tutor a question</a>
-      </div>
-    </div>
-  </section>
+  <a class="logo" href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=coming-soon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true"><g transform="translate(1 0)"><path fill="currentColor" fill-rule="evenodd" d="M8 6h16a12 12 0 0 1 0 24h-7v12H8Z M17 14v8h7a4 4 0 0 0 0-8Z"/><rect fill="#B8862F" x="29" y="33" width="9" height="9"/></g></svg>
+    <span>Praxis Learn</span>
+  </a>
+  <div class="rule" aria-hidden="true"></div>
+  <h1>Practice tools coming soon</h1>
+  <p>We are getting our self-marking practice tools ready. Please check back soon.</p>
+  <p>In the meantime, visit <a href="https://praxislearn.co.za/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=coming-soon">praxislearn.co.za</a> or <a href="https://praxislearn.co.za/contact-us/?utm_source=practice-tools&amp;utm_medium=web&amp;utm_campaign=coming-soon">ask us a question</a>.</p>
 </main>
-
-<footer>
-  <div class="wrap">Praxis Learning Solutions · <a href="https://praxislearn.co.za/">praxislearn.co.za</a> · <span data-i18n="footer.tagline">Theory, put into practice.</span></div>
-</footer>
-
-<script src="engine/core.js"></script>
-<script src="engine/engine.js"></script>
-<script>PraxisEngine.library();</script>
+<script data-goatcounter="https://praxislearn.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
 </body>
 </html>
