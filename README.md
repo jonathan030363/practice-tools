@@ -1,11 +1,12 @@
-# Praxis Practice tools
+# Praxis Practice tasters (public)
 
-Public GitHub Pages site for Praxis Learn practice tools:
-https://jonathan030363.github.io/practice-tools/
+Free, one-example practice tasters for every Praxis Learn micro course: one page per metric, plus a library page.
+Served by Cloudflare Pages (project `praxis-tools`) at https://tools.praxisls.co.za/ once the domain is connected,
+and at https://praxis-tools.pages.dev/ before that.
 
-The site currently shows a short "Practice tools coming soon" page (`index.html`).
-The old tool addresses (`tools/ratios/`, `tools/market-share/`) forward to it.
+Nothing here is edited by hand. Every page is baked once from the private master and frozen
+(`build/bundle.py <tool> --taster --page=<page>` in `practice-tools-private`, then `build/taster-site.py`); the first
+line of each page says which master commit it came from. Only one worked example per metric is in these files:
+the ranges, other examples and generator code stay in the private repo.
 
-The tools themselves (financial ratio practice, market share and penetration practice),
-with the shared engine, translations, library page and checks, moved to the private repo
-`practice-tools-private` on 2026-10-07. A tool comes back here only when it is made public again.
+`_redirects` holds the short links used in videos (one per video, generated from `build/short-links.csv`).
